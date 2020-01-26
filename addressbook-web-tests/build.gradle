@@ -1,3 +1,5 @@
+group 'ru.stqa.pft.addressbook'
+
 apply plugin: 'java'
 
 
@@ -7,11 +9,13 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:7.1.0'
-    implementation 'com.katalon:com.katalon.platform.parent:1.0.15'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
-    implementation 'de.lgohlke.selenium:webdriver:20181118'
+    implementation 'ru.stqa.selenium:decorated-webdriver-parent:4.1'
+    testCompile 'com.codeborne:selenide:5.6.1'
+    implementation 'junit:junit:4.13'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-4'
+    }
 
-}
+
 test {
-    useTestNG()
+   useTestNG()
 }

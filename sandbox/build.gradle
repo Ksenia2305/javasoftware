@@ -11,6 +11,8 @@ dependencies {
     implementation 'com.katalon:com.katalon.platform.parent:1.0.15'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
 
+
+
 }
 test {
     useTestNG()
