@@ -10,6 +10,7 @@ dependencies {
     implementation 'org.testng:testng:7.1.0'
     implementation 'com.katalon:com.katalon.platform.parent:1.0.15'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
+    implementation 'org.apache.httpcomponents:fluent-hc:4.5.12'
 
 
 
