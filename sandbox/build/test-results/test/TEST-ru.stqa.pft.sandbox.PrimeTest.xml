@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.sandbox.PrimeTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-05-01T20:44:07" hostname="DESKTOP-JL3VRNR" time="35.85">
+  <properties/>
+  <testcase name="testPrime" classname="ru.stqa.pft.sandbox.PrimeTest" time="35.85">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
