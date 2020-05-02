@@ -9,10 +9,11 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:7.1.0'
-    implementation 'ru.stqa.selenium:decorated-webdriver-parent:4.1'
-    testCompile 'com.codeborne:selenide:5.6.1'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-4'
-    }
+    //implementation 'ru.stqa.selenium:decorated-webdriver-parent:4.1'
+    //testCompile 'com.codeborne:selenide:5.6.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-5'
+    compile "org.slf4j:slf4j-simple:1.7.9"
+}
 
 
 test {
